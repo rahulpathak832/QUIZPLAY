@@ -1,0 +1,61 @@
+Database: InMemory H2
+
+
+++++++++++++++++++++++++QUIZ APIS++++++++++++++++++++++++++++++++++
+
+url: http://localhost:8080/quiz/insertquestion
+method: POST
+data : 
+{
+    "questions":"Rainbow consist of how many colours?",
+    "answerlist":["8","4","9","7"]  ,
+    "correctans":"4"
+}
+
+----------------------------------------
+# To get all the QUIZ questions 
+
+url: http://localhost:8080/quiz/getAllquestions
+method: GET
+
+------------------------------------------
+# To get all the QUIZ question and answers
+
+url: http://localhost:8080/quiz/getAllQuestionAnswers
+Method: GET
+
+-----------------------------------------
+
+# To get the QUIZ result based on user
+
+url: http://localhost:8080/quiz/getresult/{userid}
+method: GET
+
+------------------------------------------
+To start Quiz session hit the below url in browser and follow the link
+url: http://localhost:8080/startQuizSession
+
+On click on the url a random user will be created
+which can play the quiz 
+
+To play the quiz click on the radio button and then click to the next question
+
+At the end you will get the result
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
