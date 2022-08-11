@@ -1,7 +1,7 @@
 Database: InMemory H2
 
 
-++++++++++++++++++++++++QUIZ APIS++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++QUIZ APIS+++++++++++++++++++++++++++++++++++++
 
 url: http://localhost:8080/quiz/insertquestion
 method: POST
